@@ -31,7 +31,7 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-primary w-100">Update</button>
+                                    <button type="submit" class="btn btn-success w-100">Update</button>
                                 </div>
                             </div>
                         </form>
