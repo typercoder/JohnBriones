@@ -2,11 +2,11 @@
 
 @section('content')
     <div class="container">
-        <h2 class="text-center mt-5">Apalit Dhvsu</h2>
+        <h2 class="text-center mt-5">Apalit Dhvsu Campus</h2>
         <div class="row justify-content-center">
             
             <div class="col-md-8">
-            <h4 class="text-left mt-5">Register</h4>
+            <h4 class="text-left mt-5">Register Account</h4>
                 <div class="card mt-4">
                     <div class="card-body">
                         <form method="POST" action="{{ route('employ.store') }}">
@@ -31,7 +31,7 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-success w-100">Register</button>
+                                    <button type="submit" class="btn btn-primary w-100">Register</button>
                                 </div>
                             </div>
                         </form>
