@@ -13,11 +13,11 @@
                             @csrf
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label for="first_name" class="form-label">Employee FN</label>
+                                    <label for="first_name" class="form-label">Employee FName</label>
                                     <input type="text" class="form-control" id="first_name" name="first_name" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="last_name" class="form-label">Employee LN</label>
+                                    <label for="last_name" class="form-label">Employee LName</label>
                                     <input type="text" class="form-control" id="last_name" name="last_name" required>
                                 </div>
                                 <div class="col-md-6">
@@ -25,7 +25,7 @@
                                     <input type="date" class="form-control" id="dob" name="dob" required>
                                 </div>
                                 <div class="col-md-6">
-                                    <label for="phone" class="form-label">CP NO.</label>
+                                    <label for="phone" class="form-label">Number</label>
                                     <input type="text" class="form-control" id="phone" name="phone" required>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                                 <form action="{{ route('employ.destroy', $employee->id) }}" method="POST" class="d-inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-success btn-sm">Delete</button>
+                                    <button type="submit" class="btn btn-secondary btn-sm">Delete</button>
                                 </form>
                             </td>
                         </tr>

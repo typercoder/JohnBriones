@@ -13,7 +13,7 @@
                             @method('PATCH')
                             <div class="row g-3">
                                 <div class="col-md-6">
-                                    <label for="first_name" class="form-label">Employee FName</label>
+                                    <label for="first_name" class="form-label">Employee FirstName</label>
                                     <input type="text" class="form-control" id="first_name" name="first_name" value="{{ $employee->first_name }}" required>
                                 </div>
                                 <div class="col-md-6">
