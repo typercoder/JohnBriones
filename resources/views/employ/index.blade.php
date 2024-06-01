@@ -65,7 +65,7 @@
                                 <form action="{{ route('employ.destroy', $employee->id) }}" method="POST" class="d-inline">
                                     @csrf
                                     @method('DELETE')
-                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                    <button type="submit" class="btn btn-success btn-sm">Delete</button>
                                 </form>
                             </td>
                         </tr>
