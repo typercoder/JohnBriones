@@ -2,10 +2,10 @@
 
 @section('content')
     <div class="container">
-        <h2 class="text-center mt-5">Employee Management</h2>
+        <h2 class="text-center mt-5">Employee Management DHVSU APALIT</h2>
         <div class="row justify-content-center">
             <div class="col-md-8">
-            <h4 class="text-left mt-5">Employee Edit Credentials</h4>
+            <h4 class="text-left mt-5">Employee Edit Credentials DHVSU APALIT</h4>
                 <div class="card mt-4">
                     <div class="card-body">
                         <form method="POST" action="{{ route('employ.update', $employee->id) }}">
@@ -31,7 +31,7 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-12">
-                                    <button type="submit" class="btn btn-success w-100">Update</button>
+                                    <button type="submit" class="btn btn-warning w-100">Update</button>
                                 </div>
                             </div>
                         </form>
